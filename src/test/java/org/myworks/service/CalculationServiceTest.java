@@ -16,7 +16,7 @@ public class CalculationServiceTest {
     @Test
     public void calculateBillInput1() throws IOException {
         taxService.createOrder(TaxServiceContants.inputFile01);
-        assertEquals(new BigDecimal(29.83).setScale(2, BigDecimal.ROUND_CEILING), calculationService.calculateBill(taxService.getOrder()));
+        assertEquals(new BigDecimal(29.83).setScale(2, BigDecimal.ROUND_UP), calculationService.calculateBill(taxService.getOrder()));
     }
 
     @Test
