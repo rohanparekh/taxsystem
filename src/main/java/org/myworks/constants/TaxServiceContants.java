@@ -8,6 +8,6 @@ public class TaxServiceContants {
     public static final String inputFile01 = "input/input01.txt";
     public static final String inputFile02 = "input/input02.txt";
 
-    public static final BigDecimal SALES_TAX_AMOUNT = new BigDecimal(0.10);
-    public static final BigDecimal IMPORTED_TAX_AMOUNT = new BigDecimal(0.05);
+    public static final double SALES_TAX_AMOUNT = 0.10;
+    public static final double IMPORTED_TAX_AMOUNT = 0.05;
 }

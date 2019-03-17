@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class Product {
     private int productId;
     private String productName;
-    private BigDecimal productPrice;
+    private double productPrice;
     private boolean isImported;
     private boolean isTaxable;
     private int quantity;
@@ -49,11 +49,11 @@ public class Product {
         this.productName = productName;
     }
 
-    public BigDecimal getProductPrice() {
+    public double getProductPrice() {
         return productPrice;
     }
 
-    public void setProductPrice(BigDecimal productPrice) {
+    public void setProductPrice(double productPrice) {
         this.productPrice = productPrice;
     }
 

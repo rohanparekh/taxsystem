@@ -38,20 +38,20 @@ public class TaxServiceTest {
         service.createOrder(TaxServiceContants.inputFile01);
         assertEquals(1, service.getProductListList().get(0).getQuantity());
         assertEquals("book", service.getProductListList().get(0).getProductName());
-        assertEquals(new BigDecimal(12.49), service.getProductListList().get(0).getProductPrice());
+        assertEquals(new Double(12.49), new Double(service.getProductListList().get(0).getProductPrice()));
         assertEquals(false, service.getProductListList().get(0).isTaxable());
         assertEquals(false, service.getProductListList().get(0).isImported());
 
         assertEquals(1, service.getProductListList().get(1).getQuantity());
         assertEquals("music CD", service.getProductListList().get(1).getProductName());
-        assertEquals(new BigDecimal(14.99), service.getProductListList().get(1).getProductPrice());
+        assertEquals(new Double(14.99), new Double(service.getProductListList().get(1).getProductPrice()));
         assertEquals(true, service.getProductListList().get(1).isTaxable());
         assertEquals(false, service.getProductListList().get(1).isImported());
 
 
         assertEquals(20, service.getProductListList().get(2).getQuantity());
         assertEquals("chocolate bar", service.getProductListList().get(2).getProductName());
-        assertEquals(new BigDecimal(0.85), service.getProductListList().get(2).getProductPrice());
+        assertEquals(new Double(0.85), new Double(service.getProductListList().get(2).getProductPrice()));
         assertEquals(false, service.getProductListList().get(2).isTaxable());
         assertEquals(false, service.getProductListList().get(2).isImported());
     }
@@ -63,13 +63,13 @@ public class TaxServiceTest {
 
         assertEquals(1, service.getProductListList().get(0).getQuantity());
         assertEquals("imported box of chocolates", service.getProductListList().get(0).getProductName());
-        assertEquals(new BigDecimal(10.00).setScale(2), service.getProductListList().get(0).getProductPrice());
+        assertEquals(new Double(10.00), new Double(service.getProductListList().get(0).getProductPrice()));
         assertEquals(false, service.getProductListList().get(0).isTaxable());
         assertEquals(true, service.getProductListList().get(0).isImported());
 
         assertEquals(1, service.getProductListList().get(1).getQuantity());
         assertEquals("imported bottle of perfume", service.getProductListList().get(1).getProductName());
-        assertEquals(new BigDecimal(47.50).setScale(2), service.getProductListList().get(1).getProductPrice());
+        assertEquals(new Double(47.50), new Double(service.getProductListList().get(1).getProductPrice()));
         assertEquals(true, service.getProductListList().get(1).isTaxable());
         assertEquals(true, service.getProductListList().get(1).isImported());
     }

@@ -25,7 +25,7 @@ public class TaxService {
     private List<Product> productListList = new ArrayList<>();
     private Order order = new Order();
     private CalculationService calculationService = new CalculationService();
-    private BigDecimal totalBill = BigDecimal.valueOf(0.0);
+    private double totalBill = 0.00;
     /**
      * 1 book at 12.49
      * 1 music CD at 14.99
@@ -48,7 +48,7 @@ public class TaxService {
             product = new Product(productName.trim());
             product.setProductId(lines);
             product.setQuantity(Integer.parseInt(productQuantity.trim()));
-            product.setProductPrice(new BigDecimal(splitOrderDetails[1].trim()));
+            product.setProductPrice(new Double(splitOrderDetails[1].trim()));
             productListList.add(product);
             lines++;
         }
