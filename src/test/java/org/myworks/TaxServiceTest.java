@@ -3,6 +3,7 @@ package org.myworks;
 import org.junit.Before;
 import org.junit.Test;
 import org.myworks.constants.TaxServiceContants;
+import org.myworks.service.TaxService;
 
 import java.io.File;
 import java.io.IOException;
@@ -62,13 +63,13 @@ public class TaxServiceTest {
 
         assertEquals(1, service.getProductListList().get(0).getQuantity());
         assertEquals("imported box of chocolates", service.getProductListList().get(0).getProductName());
-        assertEquals(new BigDecimal(10.00), service.getProductListList().get(0).getProductPrice());
+        assertEquals(new BigDecimal(10.00).setScale(2), service.getProductListList().get(0).getProductPrice());
         assertEquals(false, service.getProductListList().get(0).isTaxable());
         assertEquals(true, service.getProductListList().get(0).isImported());
 
         assertEquals(1, service.getProductListList().get(1).getQuantity());
         assertEquals("imported bottle of perfume", service.getProductListList().get(1).getProductName());
-        assertEquals(new BigDecimal(47.50), service.getProductListList().get(1).getProductPrice());
+        assertEquals(new BigDecimal(47.50).setScale(2), service.getProductListList().get(1).getProductPrice());
         assertEquals(true, service.getProductListList().get(1).isTaxable());
         assertEquals(true, service.getProductListList().get(1).isImported());
     }

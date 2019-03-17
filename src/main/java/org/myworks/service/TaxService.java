@@ -1,4 +1,4 @@
-package org.myworks;
+package org.myworks.service;
 
 import org.myworks.constants.TaxServiceContants;
 import org.myworks.model.Category;
