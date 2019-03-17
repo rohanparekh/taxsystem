@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bca3327-b6b5-4903-847b-c2d0677f2b5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myworks/constants/TaxServiceContants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myworks/constants/TaxServiceContants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myworks/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myworks/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/myworks/service/CalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myworks/service/CalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myworks/service/TaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myworks/service/TaxService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myworks/TaxServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myworks/TaxServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myworks/service/CalculationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myworks/service/CalculationServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/myworks/service/CalculationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myworks/service/CalculationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/myworks/service/CalculationServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/myworks/service/CalculationServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myworks/constants/TaxServiceContants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myworks/constants/TaxServiceContants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myworks/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myworks/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myworks/service/TaxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myworks/service/TaxService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/myworks/TaxServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/myworks/TaxServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taxsystem.iws" beforeDir="false" afterPath="$PROJECT_DIR$/taxsystem.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,14 +48,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/myworks/service/CalculationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+            <state relative-caret-position="287">
+              <caret line="34" column="117" selection-start-line="34" selection-start-column="117" selection-end-line="34" selection-end-column="117" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#412#413#0" expanded="true" />
                 <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#2033#2034#0" expanded="true" />
-                <element signature="e#2109#2110#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/myworks/service/CalculationServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="150">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -259,7 +256,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552856411774" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552857550441" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -297,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculationServiceTest.calculateBillInput2">
+  <component name="RunManager" selected="JUnit.CalculationServiceTest">
     <configuration name="CalculationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taxsystem" />
       <extension name="coverage">
@@ -379,10 +376,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculationServiceTest" />
         <item itemvalue="JUnit.CalculationServiceTest.calculateBillInput2" />
         <item itemvalue="JUnit.CalculationServiceTest.calculateBillInput1" />
         <item itemvalue="JUnit.TaxServiceTest.testProductList" />
-        <item itemvalue="JUnit.CalculationServiceTest" />
         <item itemvalue="JUnit.CalculationServiceTest.totalTtest" />
       </list>
     </recent_temporary>
@@ -398,7 +395,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552816102885</updated>
       <workItem from="1552816106204" duration="5908000" />
-      <workItem from="1552822692171" duration="17712000" />
+      <workItem from="1552822692171" duration="18852000" />
     </task>
     <task id="LOCAL-00001" summary="round fixed for test 1">
       <created>1552851003926</created>
@@ -407,43 +404,50 @@
       <option name="project" value="LOCAL" />
       <updated>1552851003926</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes product price data type to double from bigDecimal">
+      <created>1552856445032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552856445033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 21h 36m 56s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 21h 37m 40s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 21h 38m 56s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 21h 40m 36s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 21h 42m 41s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 21h 43m 44s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 21h 44m 20s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput1 - 2019.03.17 at 21h 56m 03s.xml">
+    <history-entry file="CalculationServiceTest_calculateBillInput1 - 2019.03.17 at 22h 10m 11s.xml">
       <configuration name="CalculationServiceTest.calculateBillInput1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput1 - 2019.03.17 at 21h 58m 54s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput1" configurationId="JUnit" />
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 10m 19s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationServiceTest_calculateBillInput1 - 2019.03.17 at 21h 59m 22s.xml">
-      <configuration name="CalculationServiceTest.calculateBillInput1" configurationId="JUnit" />
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 11m 12s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 11m 42s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 13m 34s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 14m 01s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 16m 26s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 17m 15s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 18m 00s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculationServiceTest_calculateBillInput2 - 2019.03.17 at 22h 18m 15s.xml">
+      <configuration name="CalculationServiceTest.calculateBillInput2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23620000" />
+    <option name="totallyTimeSpent" value="24760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -457,9 +461,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2890411" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30547947" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2890411" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30547947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -484,20 +488,22 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="round fixed for test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="round fixed for test 1" />
+    <MESSAGE value="changes product price data type to double from bigDecimal" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes product price data type to double from bigDecimal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/myworks/service/CalculationService.java</url>
-          <line>29</line>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -554,13 +560,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/myworks/model/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/myworks/model/Category.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -650,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/myworks/service/CalculationServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/myworks/TaxServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -667,16 +659,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/myworks/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/myworks/service/CalculationServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/myworks/service/CalculationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        <state relative-caret-position="287">
+          <caret line="34" column="117" selection-start-line="34" selection-start-column="117" selection-end-line="34" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#412#413#0" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
           </folding>
         </state>
       </provider>
