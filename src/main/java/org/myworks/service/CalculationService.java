@@ -12,19 +12,23 @@ public class CalculationService {
 
     private double roundedDouble = 0.0;
 
+    private double totalSalesTax = 0.00;
+
     public double calculateBill(Order order) {
         return calculateTax(order);
     }
 
     private double calculateTax(Order order) {
         double itemPrice;
-        double importedTax;
+        double importedTax = 0.00;
+        double salesTaxPerItem = 0.00;
 
         List<Product> products = order.getProducts();
 
         for (Product product : products) {
             if (product.isTaxable()) {
-                itemPrice = product.getProductPrice() + product.getProductPrice() * TaxServiceContants.SALES_TAX_AMOUNT;
+                salesTaxPerItem = product.getProductPrice() * TaxServiceContants.SALES_TAX_AMOUNT;
+                itemPrice = product.getProductPrice() + salesTaxPerItem;
             } else {
                 itemPrice = product.getProductPrice();
             }
@@ -35,8 +39,11 @@ public class CalculationService {
                 importedTax = calculateRoundedTax(product.getProductPrice() * TaxServiceContants.IMPORTED_TAX_AMOUNT);
                 itemPrice = itemPrice + importedTax;
             }
+
+            totalSalesTax = totalSalesTax + salesTaxPerItem + importedTax;
             totalBill = totalBill + itemPrice;
         }
+        System.out.println("Total sales tax: " + totalSalesTax);
         return totalBill;
     }
 
@@ -51,5 +58,9 @@ public class CalculationService {
 
     public double getRoundedDouble() {
         return roundedDouble;
+    }
+
+    public double getTotalSalesTax() {
+        return totalSalesTax;
     }
 }
