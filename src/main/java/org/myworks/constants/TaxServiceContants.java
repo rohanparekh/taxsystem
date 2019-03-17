@@ -1,10 +1,13 @@
 package org.myworks.constants;
 
+import java.math.BigDecimal;
+
 public class TaxServiceContants {
-    public static final String input1 = "1 book at 12.49\n" +
-            "1 music CD at 14.99\n" +
-            "1 chocolate bar at 0.85";
 
-
+    // input
     public static final String inputFile01 = "input/input01.txt";
+    public static final String inputFile02 = "input/input02.txt";
+
+    public static final BigDecimal SALES_TAX_AMOUNT = new BigDecimal(0.10);
+    public static final BigDecimal IMPORTED_TAX_AMOUNT = new BigDecimal(0.05);
 }
