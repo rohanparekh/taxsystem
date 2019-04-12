@@ -16,4 +16,6 @@ public class ProductConstant {
     public static final String item_bottle_perfume= "bottle of perfume";
     public static final String item_headache_pills= "headeache pills";
 
+    public static final String UPDATE="update success";
+
 }
